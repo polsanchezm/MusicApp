@@ -1,0 +1,19 @@
+section,
+aside,
+footer {
+  display: flex;
+}
+
+#app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#main-box {
+  display: flex;
+  flex: 1;
+  gap: 15px;
+  margin: 10px;
+  overflow: hidden;
+}
