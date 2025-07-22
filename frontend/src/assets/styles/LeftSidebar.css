@@ -1,13 +1,13 @@
 .left-sidebar {
+  width: 20vw;
+  height: 70vh;
+  padding: 4vh 2vw;
+  border-radius: 6vh;
   flex: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 40px 20px;
-  border-radius: 40px;
   background-color: #5f4949;
-  height: calc(100vh - 165px);
-  min-width: 250px;
   overflow-y: auto;
   overflow-x: hidden;
 }

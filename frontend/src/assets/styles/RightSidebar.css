@@ -1,13 +1,13 @@
 .right-sidebar {
+  width: 20vw;
+  height: 70vh;
+  padding: 4vh 2vw;
+  border-radius: 6vh;
   flex: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 40px 20px;
-  border-radius: 40px;
   background-color: #5f4949;
-  height: calc(100vh - 165px);
-  min-width: 250px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -28,7 +28,7 @@
   justify-content: center;
 }
 
-#playlist-title > h1 {
+#playlist-title>h1 {
   background-color: #9f8989;
   border-radius: 40px;
   padding: 10px 20px;
@@ -39,7 +39,7 @@
   position: relative;
 }
 
-.playlist > .playlist-img {
+.playlist>.playlist-img {
   background-color: #9f8989;
   border-radius: 100px;
   width: 40px;
@@ -49,7 +49,7 @@
   left: 10px;
 }
 
-.playlist > .playlist-title {
+.playlist>.playlist-title {
   background-color: #9f8989;
   border-radius: 100px;
   width: 60px;
@@ -59,7 +59,7 @@
   left: 60px;
 }
 
-.playlist > .playlist-author {
+.playlist>.playlist-author {
   background-color: #9f8989;
   border-radius: 100px;
   width: 60px;
@@ -73,9 +73,7 @@
 .home,
 .playlists,
 .playlist {
-  width: 100%;
-  max-width: 260px;
-  min-width: 200px;
+  width: 260px;
   height: 60px;
   border-radius: 40px;
   background: #2f1919;
@@ -83,7 +81,7 @@
   position: relative;
 }
 
-.search > .search-button {
+.search>.search-button {
   background-color: #9f8989;
   border-radius: 100px;
   width: 40px;
@@ -93,7 +91,7 @@
   right: 10px;
 }
 
-.search > .search-input {
+.search>.search-input {
   background-color: #9f8989;
   border-radius: 100px;
   width: 190px;
@@ -103,8 +101,8 @@
   right: 60px;
 }
 
-.home > .home-img,
-.playlists > .playlists-img {
+.home>.home-img,
+.playlists>.playlists-img {
   background-color: #9f8989;
   border-radius: 100px;
   width: 40px;
@@ -114,8 +112,8 @@
   left: 10px;
 }
 
-.home > .home-title,
-.playlists > .playlists-title {
+.home>.home-title,
+.playlists>.playlists-title {
   background-color: #9f8989;
   border-radius: 100px;
   width: 120px;
@@ -123,34 +121,4 @@
   position: absolute;
   top: 25px;
   left: 60px;
-}
-
-@media screen and (max-width: 1024px) {
-  .sidebar {
-    padding: 20px 15px;
-  }
-
-  .search,
-  .home,
-  .playlists,
-  .playlist {
-    min-width: 180px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .sidebar:last-child {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .sidebar {
-    display: none;
-  }
-
-  #main-box {
-    margin: 5px;
-    gap: 0;
-  }
 }
