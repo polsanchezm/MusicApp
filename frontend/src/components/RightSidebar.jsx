@@ -1,9 +1,9 @@
-import "../assets/styles/Sidebar.css";
+import "../assets/styles/RightSidebar.css";
 
 function Sidebar() {
   return (
     <>
-      <section className="sidebar">
+      <section className="right-sidebar">
         <article id="menu-wrapper">
           <div className="search">
             <div className="search-button"></div>

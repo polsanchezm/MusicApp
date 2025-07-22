@@ -1,5 +1,6 @@
 import Home from "./components/Home";
-import Sidebar from "./components/Sidebar";
+import LeftSidebar from "./components/LeftSidebar";
+import RightSidebar from "./components/RightSidebar";
 import BottomMusicPlayer from "./components/BottomMusicPlayer";
 import "./assets/styles/App.css";
 
@@ -8,13 +9,13 @@ function App() {
     <section id="app-layout">
       <section id="main-box">
         <aside id="side-box">
-          <Sidebar />
+          <LeftSidebar />
         </aside>
         <section id="home-box">
           <Home />
         </section>
         <aside id="side-box">
-          <Sidebar />
+          <RightSidebar />
         </aside>
       </section>
       <footer>
