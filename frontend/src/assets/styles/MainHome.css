@@ -1,7 +1,7 @@
-#home {
-  width: 60vw;
-  height: 70vh;
-  padding: 3vh 4vw;
+#main-home {
+  width: 59vw;
+  height: 80vh;
+  padding: 3vh 3vw;
   border-radius: 6vh;
   flex: 2;
   display: flex;
@@ -12,7 +12,7 @@
   overflow-x: hidden;
 }
 
-#home::-webkit-scrollbar {
+#main-home::-webkit-scrollbar {
   display: none;
 }
 
@@ -62,7 +62,7 @@
 .song,
 .album,
 .artist {
-  width: 13vw;
+  width: 12vw;
 }
 
 button {
@@ -98,4 +98,16 @@ button:hover {
   right: 2vw;
   width: 4vw;
   height: 9vh;
+}
+
+@media screen and (max-width: 1500px) {
+  #main-home {
+    width: 79vw;
+  }
+}
+
+@media screen and (min-width: 1501px) {
+  #main-home {
+    height: 98vh;
+  }
 }

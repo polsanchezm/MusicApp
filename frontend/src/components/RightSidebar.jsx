@@ -4,79 +4,72 @@ function Sidebar() {
   return (
     <>
       <section className="right-sidebar">
-        <article id="menu-wrapper">
-          <div className="search">
-            <div className="search-button"></div>
-            <div className="search-input"></div>
+        <article id="profile">
+          <div id="profile-img"></div>
+          <div id="profile-name"></div>
+        </article>
+        <article id="right-player">
+          <div id="song-info">
+            <div id="song-img"></div>
+            <div id="song-title"></div>
+            <div id="song-author"></div>
           </div>
-          <div className="home">
-            <div className="home-img"></div>
-            <div className="home-title"></div>
+          <div id="song-parameters">
+            <div id="time-bar"></div>
           </div>
-          <div className="playlists">
-            <div className="playlists-img"></div>
-            <div className="playlists-title"></div>
+          <div id="song-controls">
+            <div id="previous"></div>
+            <div id="play"></div>
+            <div id="next"></div>
+            <div id="volume"></div>
           </div>
         </article>
-        <article id="playlist-title">
-          <h1>Playlists</h1>
-        </article>
-        <article id="playlist-wrapper">
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
-          <div className="playlist">
-            <div className="playlist-img"></div>
-            <div className="playlist-title"></div>
-            <div className="playlist-author"></div>
-          </div>
+        <article id="playback-wrapper">
+          <article id="playback-queue">
+            <div id="playback-title">
+              <h1>Queue</h1>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+            <div className="playback">
+              <div className="playback-img"></div>
+              <div className="playback-title"></div>
+              <div className="playback-author"></div>
+            </div>
+          </article>
         </article>
       </section>
     </>

@@ -1,9 +1,9 @@
-import "../assets/styles/Home.css";
+import "../assets/styles/MainHome.css";
 
 function Home() {
   return (
     <>
-      <section id="home">
+      <section id="main-home">
         <article id="song-wrapper">
           <header className="title">
             <h1>Songs</h1>

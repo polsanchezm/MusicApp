@@ -1,7 +1,7 @@
 .left-sidebar {
-  width: 20vw;
-  height: 70vh;
-  padding: 4vh 2vw;
+  width: 19vw;
+  height: 80vh;
+  padding: 3vh 1vw;
   border-radius: 6vh;
   flex: 1;
   display: flex;
@@ -20,19 +20,20 @@
 #playlist-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 1vh;
 }
 
 #playlist-title {
   display: flex;
   justify-content: center;
+  padding: 3vh 0 3vh;
+  text-align: center;
 }
 
 #playlist-title > h1 {
   background-color: #9f8989;
-  border-radius: 40px;
-  padding: 10px 20px;
-  margin: 20px 0 20px;
+  padding: 1vh 2vw;
+  border-radius: 6vh;
 }
 
 .playlist {
@@ -41,41 +42,42 @@
 
 .playlist > .playlist-img {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 40px;
-  height: 40px;
+  border-radius: 6vh;
+  width: 2.5vw;
+  height: 5.5vh;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  left: 2vw;
+  top: 1.5vh;
+  transform: translateX(-50%);
 }
 
 .playlist > .playlist-title {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 60px;
-  height: 6px;
+  border-radius: 6vh;
+  width: 5vw;
+  height: 1vh;
   position: absolute;
-  top: 20px;
-  left: 60px;
+  left: 4.5vw;
+  top: 2.5vh;
 }
 
 .playlist > .playlist-author {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 60px;
-  height: 3px;
+  border-radius: 6vh;
+  width: 5vw;
+  height: 0.5vh;
   position: absolute;
-  top: 35px;
-  left: 60px;
+  left: 4.5vw;
+  top: 5vh;
 }
 
 .search,
 .home,
 .playlists,
 .playlist {
-  width: 260px;
-  height: 60px;
-  border-radius: 40px;
+  width: 17vw;
+  height: 8.5vh;
+  border-radius: 6vh;
   background: #2f1919;
   align-content: center;
   position: relative;
@@ -83,42 +85,49 @@
 
 .search > .search-button {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 40px;
-  height: 40px;
+  border-radius: 6vh;
+  width: 2.5vw;
+  height: 5.5vh;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 1.5vh;
+  right: 0.7vw;
 }
 
 .search > .search-input {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 190px;
-  height: 40px;
+  border-radius: 6vh;
+  width: 12.5vw;
+  height: 5.5vh;
   position: absolute;
-  top: 10px;
-  right: 60px;
+  top: 1.5vh;
+  right: 3.8vw;
 }
 
 .home > .home-img,
 .playlists > .playlists-img {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 40px;
-  height: 40px;
+  border-radius: 6vh;
+  width: 2.5vw;
+  height: 5.5vh;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  left: 2vw;
+  top: 1.5vh;
+  transform: translateX(-50%);
 }
 
 .home > .home-title,
 .playlists > .playlists-title {
   background-color: #9f8989;
-  border-radius: 100px;
-  width: 120px;
-  height: 10px;
+  border-radius: 6vh;
+  width: 6vw;
+  height: 1.5vh;
   position: absolute;
-  top: 25px;
-  left: 60px;
+  left: 4.5vw;
+  top: 3.5vh;
+}
+
+@media screen and (min-width: 1501px) {
+  .left-sidebar {
+    height: 98vh;
+  }
 }
