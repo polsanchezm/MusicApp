@@ -1,8 +1,8 @@
 .left-sidebar {
-  width: 19vw;
-  height: 80vh;
-  padding: 3vh 1vw;
-  border-radius: 6vh;
+  width: 20%;
+  height: 98%;
+  padding: 4% 6%;
+  border-radius: 2rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -20,20 +20,20 @@
 #playlist-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  gap: 0.5%;
 }
 
 #playlist-title {
   display: flex;
   justify-content: center;
-  padding: 3vh 0 3vh;
+  padding: 10%;
   text-align: center;
 }
 
 #playlist-title > h1 {
   background-color: #9f8989;
-  padding: 1vh 2vw;
-  border-radius: 6vh;
+  padding: 4% 8%;
+  border-radius: 2rem;
 }
 
 .playlist {
@@ -42,12 +42,12 @@
 
 .playlist > .playlist-img {
   background-color: #9f8989;
-  border-radius: 6vh;
-  width: 2.5vw;
-  height: 5.5vh;
+  border-radius: 5rem;
+  width: 15%;
+  height: 65%;
   position: absolute;
-  left: 2vw;
-  top: 1.5vh;
+  left: 1.5rem;
+  top: 0.5rem;
   transform: translateX(-50%);
 }
 
@@ -85,9 +85,9 @@
 
 .search > .search-button {
   background-color: #9f8989;
-  border-radius: 6vh;
-  width: 2.5vw;
-  height: 5.5vh;
+  border-radius: 5rem;
+  width: 15%;
+  height: 65%;
   position: absolute;
   top: 1.5vh;
   right: 0.7vw;
@@ -106,12 +106,12 @@
 .home > .home-img,
 .playlists > .playlists-img {
   background-color: #9f8989;
-  border-radius: 6vh;
-  width: 2.5vw;
-  height: 5.5vh;
+  border-radius: 5rem;
+  width: 15%;
+  height: 65%;
   position: absolute;
-  left: 2vw;
-  top: 1.5vh;
+  left: 1.5rem;
+  top: 0.5rem;
   transform: translateX(-50%);
 }
 
