@@ -1,7 +1,6 @@
 #main-home {
-  width: 60%;
-  height: 98%;
-  padding: 4% 6%;
+  height: 100%;
+  padding: 2rem;
   border-radius: 2rem;
   flex: 2;
   display: flex;
@@ -17,13 +16,13 @@
 }
 
 .title {
-  padding: 2% 0 4%;
+  padding: 1rem 0.3rem;
   text-align: center;
 }
 
 .title > h1 {
   background-color: #9f8989;
-  padding: 1% 2%;
+  padding: 0.5rem;
   border-radius: 2rem;
 }
 
@@ -31,7 +30,7 @@
 #artists,
 #albums {
   display: flex;
-  gap: 0.5%;
+  gap: 0.3rem;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -39,7 +38,7 @@
 .song {
   height: 5rem;
   border-radius: 2rem;
-  margin: 1% 0.5%;
+  margin: 0.2rem;
   background: #564040;
   align-content: center;
   position: relative;
@@ -48,7 +47,7 @@
 .album {
   height: 9.5rem;
   border-radius: 2rem;
-  margin: 1% 0.5%;
+  margin: 0.2rem;
   background: #564040;
   align-content: center;
   position: relative;
@@ -57,7 +56,7 @@
 .artist {
   height: 9.5rem;
   border-radius: 5rem;
-  margin: 1% 0.5%;
+  margin: 0.2rem;
   background: #564040;
   align-content: center;
   position: relative;
@@ -66,7 +65,7 @@
 .song,
 .album,
 .artist {
-  width: 8.9rem;
+  width: 8.8rem;
 }
 
 button {
@@ -85,33 +84,27 @@ button:hover {
   position: absolute;
   right: 0.8rem;
   transform: translateY(-50%);
-  width: 30%;
-  height: 53%;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .album-button {
   position: absolute;
   top: 5.5rem;
   right: 0.8rem;
-  width: 34%;
-  height: 32%;
+  width: 3rem;
+  height: 3rem;
 }
 
 .artist-button {
   position: absolute;
   right: 1.2rem;
-  width: 34%;
-  height: 32%;
+  width: 3rem;
+  height: 3rem;
 }
 
-@media screen and (max-width: 1500px) {
-  #main-home {
-    width: 90%;
-  }
-}
-
-@media screen and (min-width: 1501px) {
+/* @media screen and (min-width: 1501px) {
   #main-home {
     height: 100%;
   }
-}
+} */

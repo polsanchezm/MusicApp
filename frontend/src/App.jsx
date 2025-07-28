@@ -8,19 +8,19 @@ function App() {
   return (
     <section id="app-layout">
       <section id="main-box">
-        <aside id="side-box">
+        <aside id="left-sidebox">
           <LeftSidebar />
         </aside>
         <section id="home-box">
           <Home />
         </section>
-        <aside id="side-box">
+        <aside id="right-sidebox">
           <RightSidebar />
         </aside>
       </section>
-      <footer>
+      {/* <footer>
         <BottomMusicPlayer />
-      </footer>
+      </footer> */}
     </section>
   );
 }

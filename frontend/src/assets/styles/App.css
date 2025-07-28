@@ -4,9 +4,28 @@ footer {
   display: flex;
 }
 
-footer {
-  margin: 1vh;
+#left-sidebox,
+#right-sidebox {
+  width: 14rem;
 }
+
+#home-box {
+  width: 60%;
+}
+
+/* @media screen and (max-width: 1500px) {
+  #home-box {
+    width: 80%;
+  }
+
+  #right-sidebox {
+    display: none;
+  }
+} */
+
+/* footer {
+  margin: 1vh;
+} */
 
 #app-layout {
   display: flex;
@@ -18,11 +37,12 @@ footer {
   display: flex;
   justify-content: center;
   flex: 1;
-  gap: 1vw;
-  margin: 1vh;
+  gap: 0.5rem;
+  margin: 0.3rem;
   overflow: hidden;
 }
 
+/* 
 @media screen and (min-width: 1501px) {
   footer {
     display: none;
@@ -37,4 +57,4 @@ footer {
   footer {
     margin: 0 1vh 1vh;
   }
-}
+} */
