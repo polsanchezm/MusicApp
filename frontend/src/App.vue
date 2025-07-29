@@ -2,7 +2,7 @@
 import Home from './components/HomeComponent.vue'
 import LeftSidebar from './components/LeftSidebarComponent.vue'
 import RightSidebar from './components/RightSidebarComponent.vue'
-import BottomMusicPlayer from './components/BottomPlayerComponent.vue'
+// import BottomMusicPlayer from './components/BottomPlayerComponent.vue'
 import './assets/styles/index.css'
 import './assets/styles/App.css'
 </script>
